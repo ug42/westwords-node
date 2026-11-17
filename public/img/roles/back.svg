@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Hidden role">
+  <defs>
+    <pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="24" height="24" fill="#5b3420"/>
+      <path d="M0 12 H24 M12 0 V24" stroke="#6e4229" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect x="4" y="4" width="232" height="312" rx="18" fill="url(#p)" stroke="#2a1810" stroke-width="6"/>
+  <rect x="16" y="16" width="208" height="288" rx="10" fill="none" stroke="#e9b949" stroke-width="3"/>
+  <circle cx="120" cy="160" r="62" fill="#f3e4c5" stroke="#2a1810" stroke-width="5"/>
+  <path d="M120 112 C140 140 140 180 120 208 C100 180 100 140 120 112 Z" fill="#9b2230"/>
+  <path d="M72 160 C100 140 140 140 168 160 C140 180 100 180 72 160 Z" fill="#2f6f73"/>
+  <circle cx="120" cy="160" r="12" fill="#e9b949" stroke="#2a1810" stroke-width="3"/>
+</svg>

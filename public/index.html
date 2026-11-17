@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Westwords</title>
+  <meta name="description" content="A social deduction word game for voice chat: werewolves, seers and a Mayor with a secret word.">
+  <meta name="theme-color" content="#1b1210">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rye&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">Westwords</a>
+    <div class="topbar-right">
+      <span id="code-chip" class="chip" hidden></span>
+      <button id="sound-btn" class="icon-btn" type="button" title="Toggle timer sounds" aria-label="Toggle timer sounds">🔔</button>
+      <span id="conn" class="conn" title="Connection"></span>
+    </div>
+  </header>
+  <main id="app" aria-live="polite"><p class="loading">Saddling up…</p></main>
+  <div id="toast" role="status" aria-live="assertive"></div>
+  <dialog id="role-dialog"></dialog>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="beholder">
+  <defs>
+    <linearGradient id="sky-beholder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbd38d"/>
+      <stop offset="0.6" stop-color="#f3a65a"/>
+      <stop offset="1" stop-color="#d9673b"/>
+    </linearGradient>
+    <radialGradient id="glow-beholder" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff1c4" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#fff1c4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff1c4" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="arch-beholder"><path d="M44 252 V96 A76 76 0 0 1 196 96 V252 Z"/></clipPath>
+  </defs>
+  <rect x="4" y="4" width="232" height="312" rx="18" fill="#f3e4c5" stroke="#2a1810" stroke-width="6"/>
+  <rect x="16" y="16" width="208" height="288" rx="10" fill="none" stroke="#2f6f73" stroke-width="3"/>
+  <rect x="22" y="22" width="196" height="276" rx="7" fill="none" stroke="#e2cc9f" stroke-width="2"/>
+  <path d="M16 9 L23 16 L16 23 L9 16 Z" fill="#2f6f73" stroke="#2a1810" stroke-width="2"/><path d="M224 9 L231 16 L224 23 L217 16 Z" fill="#2f6f73" stroke="#2a1810" stroke-width="2"/><path d="M16 297 L23 304 L16 311 L9 304 Z" fill="#2f6f73" stroke="#2a1810" stroke-width="2"/><path d="M224 297 L231 304 L224 311 L217 304 Z" fill="#2f6f73" stroke="#2a1810" stroke-width="2"/>
+  <g clip-path="url(#arch-beholder)">
+    <rect x="40" y="16" width="160" height="240" fill="url(#sky-beholder)"/>
+    <circle cx="120" cy="196" r="78" fill="url(#glow-beholder)"/>
+    <g fill="#fff8e6" opacity="0.5"><ellipse cx="78" cy="78" rx="18" ry="4"/><ellipse cx="166" cy="66" rx="14" ry="3"/></g>
+    <path d="M40 222 L64 212 L70 200 L104 200 L110 214 L150 216 L160 206 L186 206 L192 216 L200 218 V256 H40 Z" fill="#5b3420"/>
+    <g opacity="0.95">
+    <g fill="#fbd38d" stroke="#2a1810" stroke-width="3" stroke-linejoin="round">
+      <path d="M150 60 L153 67 L160 70 L153 73 L150 80 L147 73 L140 70 L147 67 Z"/><path d="M178 86 L181 93 L188 96 L181 99 L178 106 L175 99 L168 96 L175 93 Z"/><path d="M168 57 L170.1 61.9 L175 64 L170.1 66.1 L168 71 L165.9 66.1 L161 64 L165.9 61.9 Z"/>
+    </g>
+    <g transform="rotate(-36 112 150)" fill="#2a1810">
+      <rect x="60" y="138" width="44" height="24" rx="4"/>
+      <rect x="100" y="134" width="40" height="32" rx="4"/>
+      <rect x="136" y="128" width="40" height="44" rx="5"/>
+      <rect x="172" y="124" width="8" height="52" rx="3"/>
+      <rect x="66" y="136" width="4" height="28" fill="#fbd38d" opacity="0.6"/>
+    </g>
+    <g stroke="#2a1810" stroke-width="6" stroke-linecap="round">
+      <line x1="116" y1="160" x2="84" y2="218"/>
+      <line x1="116" y1="160" x2="148" y2="218"/>
+      <line x1="116" y1="160" x2="116" y2="218"/>
+    </g></g>
+    <rect x="40" y="218" width="160" height="40" fill="#5b3420"/>
+    <path d="M176 218 V200 M176 206 h-6 v-6 M176 210 h6 v-8" stroke="#5b3420" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  <path d="M44 252 V96 A76 76 0 0 1 196 96 V252 Z" fill="none" stroke="#2a1810" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M30 270 H210" stroke="#2a1810" stroke-width="2"/>
+  <polygon points="120.0,274.0 122.9,282.0 131.4,282.3 124.8,287.5 127.1,295.7 120.0,291.0 112.9,295.7 115.2,287.5 108.6,282.3 117.1,282.0" fill="#2f6f73"/>
+</svg>

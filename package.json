@@ -1,0 +1,24 @@
+{
+  "name": "westwords-node",
+  "version": "1.0.0",
+  "description": "Westwords: a voice-chat social deduction word game (roles, night actions, timers, tokens, voting). Node.js port of ug42/westwords.",
+  "main": "server.js",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test --test-force-exit test/*.test.js",
+    "art": "node scripts/build-art.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}

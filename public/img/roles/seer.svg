@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="seer">
+  <defs>
+    <linearGradient id="sky-seer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbd38d"/>
+      <stop offset="0.6" stop-color="#f3a65a"/>
+      <stop offset="1" stop-color="#d9673b"/>
+    </linearGradient>
+    <radialGradient id="glow-seer" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff1c4" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#fff1c4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff1c4" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="arch-seer"><path d="M44 252 V96 A76 76 0 0 1 196 96 V252 Z"/></clipPath>
+  </defs>
+  <rect x="4" y="4" width="232" height="312" rx="18" fill="#f3e4c5" stroke="#2a1810" stroke-width="6"/>
+  <rect x="16" y="16" width="208" height="288" rx="10" fill="none" stroke="#2f6f73" stroke-width="3"/>
+  <rect x="22" y="22" width="196" height="276" rx="7" fill="none" stroke="#e2cc9f" stroke-width="2"/>
+  <path d="M16 9 L23 16 L16 23 L9 16 Z" fill="#2f6f73" stroke="#2a1810" stroke-width="2"/><path d="M224 9 L231 16 L224 23 L217 16 Z" fill="#2f6f73" stroke="#2a1810" stroke-width="2"/><path d="M16 297 L23 304 L16 311 L9 304 Z" fill="#2f6f73" stroke="#2a1810" stroke-width="2"/><path d="M224 297 L231 304 L224 311 L217 304 Z" fill="#2f6f73" stroke="#2a1810" stroke-width="2"/>
+  <g clip-path="url(#arch-seer)">
+    <rect x="40" y="16" width="160" height="240" fill="url(#sky-seer)"/>
+    <circle cx="120" cy="196" r="78" fill="url(#glow-seer)"/>
+    <g fill="#fff8e6" opacity="0.5"><ellipse cx="78" cy="78" rx="18" ry="4"/><ellipse cx="166" cy="66" rx="14" ry="3"/></g>
+    <path d="M40 222 L64 212 L70 200 L104 200 L110 214 L150 216 L160 206 L186 206 L192 216 L200 218 V256 H40 Z" fill="#5b3420"/>
+    <g opacity="0.95">
+    <g stroke="#2a1810" stroke-width="5" stroke-linecap="round">
+      <line x1="182.0" y1="140.0" x2="200.0" y2="140.0"/><line x1="173.7" y1="164.8" x2="189.3" y2="172.0"/><line x1="151.0" y1="183.0" x2="160.0" y2="195.4"/><line x1="120.0" y1="189.6" x2="120.0" y2="204.0"/><line x1="89.0" y1="183.0" x2="80.0" y2="195.4"/><line x1="66.3" y1="164.8" x2="50.7" y2="172.0"/><line x1="58.0" y1="140.0" x2="40.0" y2="140.0"/><line x1="66.3" y1="115.2" x2="50.7" y2="108.0"/><line x1="89.0" y1="97.0" x2="80.0" y2="84.6"/><line x1="120.0" y1="90.4" x2="120.0" y2="76.0"/><line x1="151.0" y1="97.0" x2="160.0" y2="84.6"/><line x1="173.7" y1="115.2" x2="189.3" y2="108.0"/>
+    </g>
+    <path d="M52 140 Q120 72 188 140 Q120 208 52 140 Z" fill="#2a1810"/>
+    <circle cx="120" cy="140" r="27" fill="#fbd38d"/>
+    <circle cx="120" cy="140" r="12" fill="#2a1810"/>
+    <circle cx="113" cy="133" r="4" fill="#fff8e6"/></g>
+    <rect x="40" y="218" width="160" height="40" fill="#5b3420"/>
+    <path d="M176 218 V200 M176 206 h-6 v-6 M176 210 h6 v-8" stroke="#5b3420" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  <path d="M44 252 V96 A76 76 0 0 1 196 96 V252 Z" fill="none" stroke="#2a1810" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M30 270 H210" stroke="#2a1810" stroke-width="2"/>
+  <polygon points="120.0,274.0 122.9,282.0 131.4,282.3 124.8,287.5 127.1,295.7 120.0,291.0 112.9,295.7 115.2,287.5 108.6,282.3 117.1,282.0" fill="#2f6f73"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="minion">
+  <defs>
+    <linearGradient id="sky-minion" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d0f2b"/>
+      <stop offset="0.6" stop-color="#5a1630"/>
+      <stop offset="1" stop-color="#b23a2c"/>
+    </linearGradient>
+    <radialGradient id="glow-minion" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f06a4a" stop-opacity="0.95"/>
+      <stop offset="0.7" stop-color="#f06a4a" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f06a4a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="arch-minion"><path d="M44 252 V96 A76 76 0 0 1 196 96 V252 Z"/></clipPath>
+  </defs>
+  <rect x="4" y="4" width="232" height="312" rx="18" fill="#f3e4c5" stroke="#2a1810" stroke-width="6"/>
+  <rect x="16" y="16" width="208" height="288" rx="10" fill="none" stroke="#9b2230" stroke-width="3"/>
+  <rect x="22" y="22" width="196" height="276" rx="7" fill="none" stroke="#e2cc9f" stroke-width="2"/>
+  <path d="M16 9 L23 16 L16 23 L9 16 Z" fill="#9b2230" stroke="#2a1810" stroke-width="2"/><path d="M224 9 L231 16 L224 23 L217 16 Z" fill="#9b2230" stroke="#2a1810" stroke-width="2"/><path d="M16 297 L23 304 L16 311 L9 304 Z" fill="#9b2230" stroke="#2a1810" stroke-width="2"/><path d="M224 297 L231 304 L224 311 L217 304 Z" fill="#9b2230" stroke="#2a1810" stroke-width="2"/>
+  <g clip-path="url(#arch-minion)">
+    <rect x="40" y="16" width="160" height="240" fill="url(#sky-minion)"/>
+    <circle cx="160" cy="104" r="60" fill="url(#glow-minion)"/>
+    <circle cx="160" cy="104" r="40" fill="#f06a4a"/>
+         <g fill="#fff" opacity="0.8"><circle cx="66" cy="60" r="1.6"/><circle cx="90" cy="84" r="1.2"/><circle cx="76" cy="120" r="1.4"/><circle cx="122" cy="52" r="1.2"/></g>
+    <path d="M40 222 L64 212 L70 200 L104 200 L110 214 L150 216 L160 206 L186 206 L192 216 L200 218 V256 H40 Z" fill="#1a0d0a"/>
+    <g opacity="0.95">
+    
+  <g transform="translate(0 0)" fill="#2a1810">
+    <path d="M78 218 C80 176 96 154 120 150 C144 154 160 176 162 218 Z"/>
+    <path d="M112 146 h16 v10 h-16 z"/>
+    <circle cx="120" cy="124" r="20"/>
+    <ellipse cx="120" cy="106" rx="38" ry="7"/>
+    <path d="M100 106 C100 84 108 78 113 80 C117 82 123 82 127 80 C132 78 140 84 140 106 Z"/>
+    <path d="M104 86 L98 66 L112 80 Z M136 86 L142 66 L128 80 Z"/>
+      <path d="M98 126 L142 126 L120 154 Z"/>
+  </g>
+    <rect x="102" y="117" width="36" height="7" rx="3" fill="#ffcf5a" opacity="0.25"/>
+    <circle cx="112" cy="120" r="2.6" fill="#ffcf5a"/>
+    <circle cx="128" cy="120" r="2.6" fill="#ffcf5a"/>
+    <g fill="#2a1810">
+      <path d="M170 140 V128 M176 128 h-12" stroke="#2a1810" stroke-width="3" fill="none"/>
+      <rect x="160" y="140" width="22" height="30" rx="4"/>
+      <rect x="156" y="136" width="30" height="6" rx="2"/>
+      <rect x="156" y="168" width="30" height="6" rx="2"/>
+    </g>
+    <rect x="165" y="146" width="12" height="18" rx="3" fill="#ffcf5a"/>
+    <path d="M150 190 Q160 176 168 172" stroke="#2a1810" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+    <rect x="40" y="218" width="160" height="40" fill="#1a0d0a"/>
+    <path d="M176 218 V200 M176 206 h-6 v-6 M176 210 h6 v-8" stroke="#1a0d0a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  <path d="M44 252 V96 A76 76 0 0 1 196 96 V252 Z" fill="none" stroke="#2a1810" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M30 270 H210" stroke="#2a1810" stroke-width="2"/>
+  <g stroke="#9b2230" stroke-width="4" stroke-linecap="round">
+    <path d="M110 276 L104 296 M120 274 L116 298 M130 276 L128 296"/></g>
+</svg>
